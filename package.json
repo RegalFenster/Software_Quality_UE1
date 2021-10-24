@@ -1,0 +1,28 @@
+{
+  "name": "ue1",
+  "version": "1.0.0",
+  "description": "1. Setup for unit test exercise",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npx jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RegalFenster/Software_Quality_UE1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RegalFenster/Software_Quality_UE1/issues"
+  },
+  "homepage": "https://github.com/RegalFenster/Software_Quality_UE1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jasmine": "^3.10.0",
+    "request": "^2.88.2"
+  }
+}
