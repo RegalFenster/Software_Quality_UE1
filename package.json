@@ -22,7 +22,9 @@
   "homepage": "https://github.com/RegalFenster/Software_Quality_UE1#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "jasmine": "^3.10.0",
     "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "jasmine": "^3.10.0"
   }
 }
