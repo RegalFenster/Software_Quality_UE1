@@ -1,22 +1,18 @@
-describe("Search for a word at specific url", ()=>{
-    const request = require('request');
-    const url = "https://www.fh-joanneum.at/";
-    let counter = 1;
+describe("HttpSpec", function () {
+  const request = require("request");
+  const url = "https://www.fh-joanneum.at/";
 
-    beforeAll((done)=>{
-       data = {}
-        request.get(url,(err,response,body)=>{
-           data.body=body;
-           done();
-       });
+  beforeAll(function (done) {
+    data = {};
+    request.get(url, (err, response, body) => {
+      data.body = body;
+      done();
     });
+  });
 
-    beforeEach(()=>{console.log(`Test ${counter} part04 started`);})
-    afterEach(()=>{console.log(`Test ${counter} part04 finished`);counter++;})
-
-
-    it("Includes word \"Bibliothek\"?",()=>{
-        expect(data.body).toContain("bibliothek");
+  describe("Search for a word at specific url", function () {
+    it("Should include the word 'bibliothek'", function () {
+      expect(data.body).toContain("bibliothek");
     });
-
+  });
 });

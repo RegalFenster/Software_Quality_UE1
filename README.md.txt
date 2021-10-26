@@ -42,7 +42,7 @@ node lib/verifyNode.js
 How to run the tests:
 you can call "npm test" or "npm test spec/part01/*" to execute the tests.
 
-2.2 part01
+2.2 part01 (done)
 Create a jasmine unit test in spec/part01/CalculatorSpec.js for the JS file lib/calculator.js
  it should test the functions add, subtract and multiply
  e.g. 
@@ -50,20 +50,20 @@ Create a jasmine unit test in spec/part01/CalculatorSpec.js for the JS file lib/
    subtract(30,10) == 20
    multiply(1,10)  == 10
 
- subpart01.01
+ subpart01.01 (done)
 
 Switch the tested class to calculator2.js and see what happens. Describe how to fix this behaviour.
 
-2.3 part02
+2.3 part02 (done)
 
 Test the JS file lib/writeFile and check if a file was created. Extend the solution to be able to run the test multiple times.
 
-2.4 part03
+2.4 part03 (done)
 
 Test the JS file app/hello_world.js 
 The existing spec/serverSpec.js will already include the hello_world.js and startup the server in the process of the test.
 
-2.5 part04
-Create a remote HTTP test for [1] to check for a string containing a word “Bibliothek”
+2.5 part04 (done)
+Create a remote HTTP test for [1] to check for a string containing a word ï¿½Bibliothekï¿½
 [1] https://www.fh-joanneum.at/
  

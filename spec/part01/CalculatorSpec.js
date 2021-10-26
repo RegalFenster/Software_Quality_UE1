@@ -7,17 +7,17 @@ describe("Calculator", function () {
   //if the calculator2 module should not be modified the tests need to check the values the module is returning
 
   describe("Addition", function () {
-    it("The function should add 2 numbers", function () {
+    it("Should add 2 numbers", function () {
       expect(calculator.add(10, 20)).toBe(30);
     });
   });
   describe("Subtraction", function () {
-    it("The function should subtract 2 numbers", function () {
+    it("Should subtract 2 numbers", function () {
       expect(calculator.subtract(30, 10)).toBe(20);
     });
   });
   describe("Multiplication", function () {
-    it("The function should multiply 2 numbers", function () {
+    it("Should multiply 2 numbers", function () {
       expect(calculator.multiply(1, 10)).toBe(10);
     });
   });
